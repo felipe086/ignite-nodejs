@@ -1,0 +1,20 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name":"Felipe",
+  "email":"Felipe@gmail.com"
+}
+
+###
+GET http://localhost:3333/users
+
+###
+DELETE http://localhost:3333/users/86f16cdb-e1ea-4a33-80cd-2b9f048317d4
+###
+PUT http://localhost:3333/users/6c295926-15cd-4b6b-a2b7-7c87820cb183
+Content-Type: application/json
+
+{
+  "name": "Fe"
+}
