@@ -131,3 +131,6 @@ dist
 
 # RestClient extension file
 *.http
+
+pnpm-lock.yaml
+tmp/*.db
