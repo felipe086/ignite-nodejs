@@ -135,3 +135,6 @@ dist
 
 pnpm-lock.yaml
 *.db
+
+build
+dist
